@@ -9,8 +9,8 @@ import { useState , useEffect } from 'react';
 
 const Home = () => {
   const[someText ,setText] = useState('Good Morning!');
-  const[LayoutColor ,setLayoutColor] = useState('bg-layout-grey');
-  const[Logo ,setLogo] = useState(imageWhite);
+  const[LayoutColor ,setLayoutColor] = useState('bg-layout-black');
+  const[Logo ,setLogo] = useState(imageBlack);
   const[btnColor ,setBtnColor] = useState('');
   const current = new Date();
   // By default US English uses 12hr time with AM/PM

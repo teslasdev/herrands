@@ -1,5 +1,6 @@
 .bg-layout {
   height: 100vh;
+  overflow: hidden;
 }
 .bg-layout-white {
   background-color: #fff;
