@@ -1,4 +1,4 @@
-@media (min-width: 290px) and (max-width:700px) {
+@media (min-width: 290px) and (max-width:900px) {
     body {
         height: 100vh;
     }
@@ -29,14 +29,14 @@
     }
 
     .hrd-box h2 {
-        font-size: 37px;
+        font-size: 34px;
         line-height: 47px;
         font-weight: 900;
         margin-top: 1.5rem;
     }
 
     .hrd-box h4 {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 700;
         width: 100%;
         line-height: 30px;
@@ -50,8 +50,9 @@
     }
 
     .hrd-btn {
-        width: 167px;
-        height: 65px;
+        width: 141px;
+        height: 49px;
+        font-size: 16px;
     }
 
     .bg-form-grey {
