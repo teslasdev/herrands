@@ -1,0 +1,29 @@
+.bg-layout {
+  height: 100vh;
+}
+.bg-layout-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.bg-layout-black {
+  color: #fff;
+  background-color: #000;
+}
+
+.bg-layout-grey {
+  color: rgb(0, 0, 0);
+  background-color: rgb(215, 215, 215);
+}
+
+.hrd-white {
+  background-color: #fff;
+}
+.bg-form-grey {
+  background-color: rgb(244, 245, 246);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 3rem 0;
+}

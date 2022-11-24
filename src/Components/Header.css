@@ -1,0 +1,25 @@
+.hrd-header {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hrd-logo_box {
+    width: 276px;
+    height: 100%;
+}
+
+.hrd-logo_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.hrd-sbhJ{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-right: 5rem;
+}
+
