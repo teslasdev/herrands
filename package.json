@@ -1,5 +1,6 @@
 {
   "name": "herrands",
+  "homepage": "https://send.herrands.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

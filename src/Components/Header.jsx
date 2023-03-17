@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css';
 import Typewriter from 'typewriter-effect';
+import logo from '../Images/logo.svg'
 
 
 const Header = (props) => {
@@ -8,7 +9,7 @@ const Header = (props) => {
     <div>
         <div className="hrd-header">
           <div className="hrd-logo_box">
-            <img src={props.logo} alt="" />
+            <img src={logo} alt="" />
           </div>
 
           <div className="hrd-sbhJ">

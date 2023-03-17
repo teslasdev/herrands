@@ -3,15 +3,10 @@ import './Home.css'
 import Header from '../Components/Header';
 import Body from '../Components/Body';
 import '../Responsive/Mobile.css'
-import imageWhite from '../Images/Herrands white BG 1.png';
-import imageBlack from '../Images/HerrandsBlack.png';
 import { useState , useEffect } from 'react';
 
 const Home = () => {
   const[someText ,setText] = useState('Good Morning!');
-  const[LayoutColor ,setLayoutColor] = useState('bg-layout-black');
-  const[Logo ,setLogo] = useState(imageBlack);
-  const[btnColor ,setBtnColor] = useState('');
   const current = new Date();
   // By default US English uses 12hr time with AM/PM
   const time = current.toLocaleTimeString("en-US", {
@@ -22,21 +17,17 @@ const Home = () => {
   const defaultAfternoon = '12 PM';
   const defaultEvening = '01 PM';
   useEffect(() => {
-    if(time === defaultAfternoon) {
+    if(time === '12 PM' || time === '01 PM' || time === '02 PM' || time === '03 PM') {
       setText('Good Afternoon!');
-      setLayoutColor('bg-layout-white')
-    } else if(time === defaultEvening) {
+    } else if(time === '04 PM' || time === '05 PM' || time === '06 PM' || time === '07 PM' || time === '08 PM' || time === '09 PM' || time === '10 PM' || time === '11 PM') {
       setText('Good Evening!');
-      setLayoutColor('bg-layout-black')
-      setLogo(imageBlack)
-      setBtnColor('hrd-white')
     }
   }) 
   return (
     <div className='App'>
-      <div className={LayoutColor}>
-        <Header logo={Logo}  text={someText}/>
-        <Body colorBg={btnColor}/>
+      <div>
+        <Header  text={someText}/>
+        <Body/>
       </div>
     </div>
   )
