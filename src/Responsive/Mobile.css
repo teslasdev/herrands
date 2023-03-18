@@ -24,12 +24,13 @@
     .hrd-box {
         width: 100%;
         font-size: 10px;
-        gap: 10px;
+        gap: 15px;
         padding: 0 1rem;
     }
 
     .hrd-header-mobile {
         font-size: 18px !important;
+        width: 80%;
     }
     .hrd-primary-mobile , .hrd-tertiary-mobile {
         width: 98% !important;
@@ -47,7 +48,7 @@
     .hrd-person {
         position: absolute;
         bottom: 30%;
-        height: 170px;
+        height: 155px;
         left: 50%;
         transform: translateX(-50%);
         z-index: 4;
