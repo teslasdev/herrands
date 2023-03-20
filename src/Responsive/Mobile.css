@@ -15,7 +15,7 @@
 
 
     .hrd-3iiks {
-        background-image: linear-gradient(to right,rgba(38, 52, 79, 1)
+        background-image: linear-gradient(to top,rgba(38, 52, 79, 0.8)
         ,#fff);
        z-index: 6;
 
@@ -78,6 +78,50 @@
 
 }
 
-@media (min-width: 700px) and (max-width:900px) {
-      
+@media (min-width: 700px) and (max-width:1200px) {
+    .hrd-sbhJ {
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+    .hrd-logo_box {
+        width: 127px;
+    }
+
+    .hrd-box {
+        font-size: 16px;
+        width: 90%;
+        gap: 20px;
+    }
+    .hrd-header-mobile {
+        font-size: 30px !important;
+    }
+    .hrd-primary-mobile {
+        width: 90% !important;
+        font-size: 14px !important;
+    }
+
+    .hrd-tertiary-mobile {
+        width: 70% !important;
+        font-size: 20px;
+    }
+    .hrd-dsosl {
+        gap: 20px;
+        width: 40%;
+        position: absolute;
+        right: 10%;
+    }
+
+    .hrd-secondary-mobile 
+    {
+        font-size: 13px !important;
+    }
+    .hrd-person {
+        height: 313px;
+    }
+
+    .hrd-btn {
+        width: 124px;
+        height: 45px;
+        font-size: 15px;
+    }
 }

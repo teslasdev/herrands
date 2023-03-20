@@ -73,29 +73,29 @@
 
 @keyframes ImageAnimation{
     0%{
-      background-image: linear-gradient(to right bottom,
-       rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.338)),
-    url(../Images/image.jpeg);
+        background-image: url(../Images/image.jpeg);
+        background-color: rgba(0, 0, 0, 0.534);
+        background-blend-mode: multiply;
     }
     25%{
-        background-image: linear-gradient(to right bottom,
-        rgba(0, 0, 0, 0.539),rgba(0, 0, 0, 0.338)),
-        url(../Images/image1.jpeg);
+        background-color: rgba(0, 0, 0, 0.534);
+        background-blend-mode: multiply;
+        background-image:  url(../Images/image1.jpeg);
     }
     50%{
-        background-image:  linear-gradient(to right bottom,
-        rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.338)),
-        url(../Images/image.jpeg);
+        background-color: rgba(0, 0, 0, 0.534);
+        background-blend-mode: multiply;
+        background-image: url(../Images/image.jpeg);
     }
     75%{
-        background-image:  linear-gradient(to right bottom,
-        rgba(0, 0, 0, 0.594),rgba(0, 0, 0, 0.338)),
-        url(../Images/image1.jpeg);
+        background-color: rgba(0, 0, 0, 0.534);
+        background-blend-mode: multiply;
+        background-image:  url(../Images/image1.jpeg);
     }
     100%{
-        background-image:  linear-gradient(to right bottom,
-        rgba(0, 0, 0, 0.472),rgba(0, 0, 0, 0.338)),
-        url(../Images/image.jpeg);
+        background-color: rgba(0, 0, 0, 0.534);
+        background-blend-mode: multiply;
+        background-image: url(../Images/image.jpeg);
     }
   }
 
