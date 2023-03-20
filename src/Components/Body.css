@@ -3,7 +3,7 @@
     position: relative;
 }
 .hrd-bg {
-    height: 65%;
+    min-height: 65%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -27,7 +27,7 @@
 
 .hrd-3iiks {
     width: 100%;
-    height: 35%;
+    min-height: 35%;
     background-image: linear-gradient(to right,#26344f
     ,#fff);
     position: relative;

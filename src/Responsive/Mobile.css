@@ -1,4 +1,4 @@
-@media (min-width: 290px) and (max-width:699px) {
+@media (min-width: 250px) and (max-width:599px) {
     .hrd-header {
         flex-direction: column;
 
@@ -48,7 +48,7 @@
     .hrd-person {
         position: absolute;
         bottom: 30%;
-        height: 155px;
+        height: 160px;
         left: 50%;
         transform: translateX(-50%);
         z-index: 4;
@@ -78,7 +78,8 @@
 
 }
 
-@media (min-width: 700px) and (max-width:1200px) {
+
+@media (min-width: 600px) and (max-width:900px) {
     .hrd-sbhJ {
         font-size: 2rem;
         margin-right: 1rem;
@@ -106,9 +107,9 @@
     }
     .hrd-dsosl {
         gap: 20px;
-        width: 40%;
+        width: 50%;
         position: absolute;
-        right: 10%;
+        right: 7%;
     }
 
     .hrd-secondary-mobile 
@@ -116,12 +117,12 @@
         font-size: 13px !important;
     }
     .hrd-person {
-        height: 387px;
+        height: 316px;
+        left: -5%;
     }
 
     .hrd-btn {
-        width: 124px;
-        height: 45px;
-        font-size: 15px;
+        width: 99px;
+        height: 35px;
     }
 }
