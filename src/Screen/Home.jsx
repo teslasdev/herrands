@@ -1,9 +1,11 @@
 import React from 'react'
 import './Home.css'
 import Header from '../Components/Header';
-import Body from '../Components/Body';
 import '../Responsive/Mobile.css'
 import { useState , useEffect } from 'react';
+import {useMediaQuery} from 'react-responsive'
+import Mobile from '../Components/Mobile';
+import Desktop from '../Components/Desktop';
 
 const Home = () => {
   const[someText ,setText] = useState('Good Morning!');
@@ -12,6 +14,12 @@ const Home = () => {
   const time = current.toLocaleTimeString("en-US", {
     hour: "2-digit",
   });
+
+  const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)'})
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(min-width: 544px)' })
+  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
 
 
   const defaultAfternoon = '12 PM';
@@ -26,8 +34,12 @@ const Home = () => {
   return (
     <div className='App'>
       <div>
-        <Header  text={someText}/>
-        <Body/>
+        {isPortrait ? <Mobile /> :
+        <>
+          <Header  text={someText}/>
+          <Desktop />
+        </> 
+        }
       </div>
     </div>
   )

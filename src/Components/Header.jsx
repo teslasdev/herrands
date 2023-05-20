@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css';
 import Typewriter from 'typewriter-effect';
-import logo from '../Images/logo.svg'
+import logo from '../Images/logowhite.png'
 
 
 const Header = (props) => {

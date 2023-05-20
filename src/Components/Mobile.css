@@ -1,0 +1,98 @@
+.hdm-hshja {
+    background-image: url(../Images/person.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 4rem;
+    background-color: rgba(0, 0, 0, 0.169);
+    background-blend-mode: multiply;
+
+}
+
+.hdm-sjaj {
+    background-image: linear-gradient(180deg, transparent 0%, #08265271 47%, #000000 100%);
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.hdm-logo {
+    width: 50px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.hdm-logo img{
+    width: 100%;
+    height: 100%;
+}
+.hdm-sakk {
+    font-family: 'Montserrat';
+    color: white;
+    position: absolute;
+    z-index: 10;
+    bottom: 8%;
+}
+
+.hdm-sakk h3{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: 800;
+    width: 80%;
+}
+
+.hdm-sakk p{
+    width: 70%;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.hdm-dhsah {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.hrdm-btn {
+    background-color: #fff;
+    width: 90%;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #0066F5;
+    box-shadow: 0px 1px 1px #0066f59d;
+}
+
+.hrdm-btn-1 {
+    background-color: #0066F5;
+    color: #fff;
+}
+
+.hdm-shwhh {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15px;
+}
