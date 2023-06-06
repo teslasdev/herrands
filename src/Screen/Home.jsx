@@ -6,20 +6,24 @@ import { useState , useEffect } from 'react';
 import {useMediaQuery} from 'react-responsive'
 import Mobile from '../Components/Mobile';
 import Desktop from '../Components/Desktop';
+import logo from '../Images/iconsvg.svg'
 
 const Home = () => {
   const[someText ,setText] = useState('Good Morning!');
+  const [onScreen, setScreen]= useState(true)
   const current = new Date();
   // By default US English uses 12hr time with AM/PM
   const time = current.toLocaleTimeString("en-US", {
     hour: "2-digit",
   });
 
-  const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)'})
-  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-  const isTabletOrMobile = useMediaQuery({ query: '(min-width: 544px)' })
+
   const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
-  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
+  
+  setTimeout(() => {
+    setScreen(false)
+  }, 2000)
+  
 
 
   const defaultAfternoon = '12 PM';
@@ -33,14 +37,24 @@ const Home = () => {
   }) 
   return (
     <div className='App'>
+      {onScreen ? 
+          <div className='fixed left-0 top-0 bg-white w-full h-screen flex justify-center items-center'>
+            <div className='animate w-[150px] h-[150px]'>
+              <img src={logo} alt="" className='w-full h-full '/>
+            </div>
+          </div>
+      :
       <div>
         {isPortrait ? <Mobile /> :
         <>
+          <>
           <Header  text={someText}/>
           <Desktop />
+          </>
         </> 
         }
       </div>
+      }
     </div>
   )
 }

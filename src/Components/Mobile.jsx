@@ -1,7 +1,7 @@
 import React from 'react'
 import './Mobile.css'
 import AOS from 'aos'
-import logo from '../Images/Herrands favicon blue.png'
+import logo from '../Images/iconsvg.svg'
 import { Link } from 'react-router-dom'
 import {BsFillTelephoneFill,BsEnvelope} from 'react-icons/bs'
 
