@@ -42,9 +42,9 @@ const Desktop = (props) => {
                     </div>
                 </div>
 
-                <a href='tel:+2347044184306' style={{color :'#fff'}} className='hd-gjsj'>
+                <a href='tel:+2347015263608' style={{color :'#fff'}} className='hd-gjsj'>
                     <span className='hd-skakka'><BsFillTelephoneFill size={15}/></span>
-                    <span>Give us a call 📞 - +234 704 418 4306</span>
+                    <span>Give us a call 📞 - +701 526 3608</span>
                 </a>
 
                 <a href='mailto:Send@herrands.com' style={{color :'#fff'}} className='hd-gjsj'>

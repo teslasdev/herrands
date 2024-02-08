@@ -24,7 +24,7 @@ const Mobile = (props) => {
                         <p>Connect with thousands of people who are eager to share their time with you and help you run your errands</p>
                     </div>
                     <div className="">
-                        <a href='tel:+2347044184306' style={{color :'#fff'}} className='hd-gjsj'>
+                        <a href='tel:+2347015263608' style={{color :'#fff'}} className='hd-gjsj'>
                             <span className='hd-skakka'><BsFillTelephoneFill size={15}/></span>
                         </a>
 
