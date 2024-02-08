@@ -20,8 +20,8 @@ const Mobile = (props) => {
                 
                 <div className="hdm-shwhh">
                     <div className="hdm-ahah">
-                        <h3>Don't carry it all alone!</h3>
-                        <p>Connect with thousands of people who are eager to share their time with you and help you achieve your goals</p>
+                        <h3>Send Us Your errands</h3>
+                        <p>Connect with thousands of people who are eager to share their time with you and help you run your errands</p>
                     </div>
                     <div className="">
                         <a href='tel:+2347044184306' style={{color :'#fff'}} className='hd-gjsj'>
@@ -34,12 +34,11 @@ const Mobile = (props) => {
                     </div>
                 </div>
                 <div className='hdm-dhsah'>
-                    <Link to='/onsite' className='hrdm-btn hrdm-btn-1'>On Site</Link>
-                    <Link to='/virtual' className='hrdm-btn hrdm-btn-2'>Virtual</Link>
+                    <Link to='/onsite' className='hrdm-btn hrdm-btn-1'>Send Now</Link>
                 </div>
             </div>
 
-            <div style={{color:'white',textAlign:'center', width:'100%', fontFamily:'Montserrat',zIndex:20,position:'absolute', bottom: 15}}>By continuing, <Link to='/terms-of-service' style={{color:'#0066F5'}}>terms of service</Link> and <Link to='/privacy-policy' style={{color:'#0066F5'}}> privacy policy</Link> apply</div>
+            <div style={{color:'white',textAlign:'center', width:'100%', fontFamily:'Montserrat',zIndex:20,position:'absolute', bottom: 30}}>By continuing, <Link to='/terms-of-service' style={{color:'#0066F5'}}>terms of service</Link> and <Link to='/privacy-policy' style={{color:'#0066F5'}}> privacy policy</Link> apply</div>
             <div className='hdm-sjaj' />
             
         </div>

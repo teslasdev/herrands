@@ -17,13 +17,13 @@ const Desktop = (props) => {
 
             <div className="hd-ajaj">
                 
-                <h1 className='text-heading' data-aos='fade-right'>Don't carry it all alone!</h1>
-                <p className='text-primary' data-aos='fade-up'>Connect with thousands of people who are eager to share their time with you and help you achieve your goals</p>
+                <h1 className='text-heading' data-aos='fade-right'>Send Us Your errands</h1>
 
-                <h5 className='text-tertiary'>What type of herrands are you running today?</h5>
+                <p className='text-primary' data-aos='fade-up'>Connect with thousands of people who are eager to share their time with you and help you run your errands</p>
+
+                {/* <h5 className='text-tertiary'>What type of herrands are you running today?</h5> */}
                 <div className="button">
-                    <Link to='/onsite' className='hrd-btn'>On Site</Link>
-                    <Link to='/virtual' className='hrd-btn'>Virtual</Link>
+                    <Link to='/onsite' className='hrd-btn'>Send Now</Link>
                 </div>
                 <div className='hd-kksml'>
                     <div className='hd-dhhsk'>
